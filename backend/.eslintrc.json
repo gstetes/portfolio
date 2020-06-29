@@ -1,0 +1,15 @@
+{
+    "env": {
+        "commonjs": true,
+        "node": true
+    },
+    "extends": [
+        "airbnb-base"
+    ],
+    "parserOptions": {
+        "ecmaVersion": 10
+    },
+    "rules": {
+        "linebreak-style": "off"
+    }
+}

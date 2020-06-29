@@ -1,0 +1,19 @@
+.slide-container {
+  width: 90%;
+  margin: auto;
+}
+
+.each-fade {
+  display: flex;
+}
+
+.each-fade .image-container {
+  width: 80%;
+  overflow: hidden;
+  margin: auto;
+  border-radius: 20px;
+}
+
+.each-fade .image-container img {
+  width: 100%;
+}
