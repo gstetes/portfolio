@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import api from '../../services/api';
 import './styles.css';
 
-import Slide from '../../components/Slide'
+import Slide from '../../components/Slide';
 
 //import de icones header
 import logo from '../../assets/img/logo.png';
@@ -85,7 +85,7 @@ const Home = () => {
             <ul><a href="#servicos">Serviços</a></ul>
             <ul><a href="#portfolio">Portfólio</a></ul>
             <ul><a href="#contato">Contato</a></ul>
-            <ul><a href="https://instagram.com/" target="_blank"><img src={instagram} alt="Instagram" /></a></ul>
+            <ul><a href="https://instagram.com/g.stetes" target="_blank"><img src={instagram} alt="Instagram" /></a></ul>
             <ul><a href="https://github.com/gstetes" target="_blank" rel="noopener noreferrer"><img src={github} alt="GitHub" /></a></ul>
             <ul><a href="https://linkedin.com/" target="_blank" ><img src={linkedin} alt="LinkedIn" /></a></ul>
           </li>
@@ -185,6 +185,7 @@ const Home = () => {
             <textarea cols="20" rows="10" placeholder="Me conte um pouco da sua idéia" value={mensagem} onChange={handleChangeMensagem} />
             <button type="submit">Enviar</button>
           </form>
+          <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5519996858976&text=" id="whatsapp" target="_blank" rel="noopener noreferrer"><p>Enviar mensagem no WhatsApp</p></a>
         </section>
       </div>
       <span id="copyright">© Copyright 2020.</span>

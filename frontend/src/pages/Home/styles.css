@@ -344,6 +344,24 @@
   opacity: 100%;
 }
 
+#whatsapp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FFF;
+  text-decoration: none;
+  background-color: #04CA30;
+  height: 30px;
+  width: 220px;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-top: 2em;
+}
+
+#whatsapp:hover {
+  opacity: 80%;
+}
+
 #copyright {
   color: #FFF;
   margin-top: 2%;
